@@ -38,6 +38,16 @@ public class PrimWallGen : MonoBehaviour
         }
     }
 
+    public int getHorzSize()
+    {
+        return horzSize;
+    }
+
+    public int getVertSize()
+    {
+        return vertSize;
+    }
+
     public enum dirs
     {
         UP,
